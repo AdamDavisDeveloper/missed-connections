@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "Ghost Town";
+  src: url("fonts/ghosttown.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Ghost Town", sans-serif;
+  color: rgb(37, 37, 37);
+}
+
+main {
+  background-image: url("/img/cherry.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#Card {
+  width: 40%;
+  margin: auto;
+  padding: 2rem 1.5rem;
+  padding-bottom: 1rem;
+  background: rgba(223, 227, 253, 0.342);
+  border-radius: 20px;
+}
+#Card h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+#Card p {
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin-bottom: 2rem;
+}
+
+.btn-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Refresh {
+  width: 50%;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
+
+#Credits {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  min-height: 5vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 0.5rem;
+  background: rgba(205, 212, 255, 0.789);
+}
+#Credits span {
+  color: rgb(37, 37, 37);
+}
+#Credits a {
+  color: rgb(131, 81, 89);
+}/*# sourceMappingURL=Main.css.map */
