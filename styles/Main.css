@@ -89,4 +89,34 @@ main > h1 {
 }
 #Credits a {
   color: rgb(131, 81, 89);
+}
+
+@media screen and (max-width: 945px) {
+  #Card {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 580px) {
+  html {
+    font-size: 80%;
+  }
+
+  #Card {
+    width: 80%;
+  }
+
+  #Refresh {
+    width: 60%;
+    font-size: 1.75rem;
+  }
+}
+@media screen and (max-width: 467px) {
+  #Card {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 407px) {
+  main > h1 {
+    font-size: 3.25rem;
+  }
 }/*# sourceMappingURL=Main.css.map */
