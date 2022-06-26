@@ -1,4 +1,5 @@
 import entries from "./entries.js";
+const Main = document.getElementById('Main');
 const EntryTitle = document.getElementById('EntryTitle');
 const EntryContent = document.getElementById('EntryContent');
 const Refresh = document.getElementById("Refresh");
@@ -15,10 +16,18 @@ function getRandomInt() {
     return (randomInt === thisIndex) ? getRandomInt() : randomInt;
 }
 
+function backgroundPosition() {
+    const types = ['top', 'bottom', 'left', 'right', 'center'];
+    const int = Math.floor(Math.random() * (types.length - 1) + 1);
+    return types[int];
+}
+
 function newEntry() {
     thisIndex = getRandomInt();
     EntryTitle.innerText = entries[thisIndex].title;
     EntryContent.innerText = entries[thisIndex].content;
+    Main.style.backgroundPosition = `${backgroundPosition()}`
+
 }
 
 Refresh.addEventListener("click", newEntry);
