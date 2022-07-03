@@ -167,4 +167,18 @@ export default [
                 What book did I buy?
                 `
     },
+    {
+        title: "Tatted/masked in Dollar Tree",
+        content: `
+                You wore a black tank, black mask, black pants. At Marietta DT. You asked me if I was from the area. We chatted briefly but then you disappeared to go see your sister. Would love to meet again.
+                `
+    },
+    {
+        title: "To the server at Chili's",
+        content: `
+                To the gorgeous server who waited on us at Chili's in @@@@. 
+                We were seated directly behind the hostess podium. 
+                There were three of us. My sister, her husband, and myself. I was wearing a black hat. Thank you 🙂. You were amazing.
+                `
+    },
 ]
